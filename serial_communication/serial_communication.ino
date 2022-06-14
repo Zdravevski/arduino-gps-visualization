@@ -10,10 +10,22 @@ void setup() {
 
 void loop() {
   //I just wrote a random map point, just to show you how it works, change the code and send your coordinates to the phone
-  Serial.write("41.01724994739295,21.26610019032601|"); //My app expects: "latitude,longitude|" do not forget the "|" after the coordinates
+  Serial.write("41.037806805413965,21.34574775323119|"); //My app expects: "latitude,longitude|" do not forget the "|" after the coordinates
   Serial.flush();
-  delay(10000);
-  Serial.write("41.03253160170603,21.33991458122485|");
+  delay(5000);
+  Serial.write("41.03511284027609,21.339848139262262|");
   Serial.flush();
-  delay(10000);
+  delay(5000);
+  Serial.write("41.032318982233626,21.335615232425358|");
+  Serial.flush();
+  delay(5000);
+  Serial.write("41.03178015306117,21.330191820376996|");
+  Serial.flush();
+  delay(5000);
+  Serial.write("41.03215932956679,21.322149297386886|");
+  Serial.flush();
+  delay(5000);
+  Serial.write("41.03285780691883,21.316170316308956|");
+  Serial.flush();
+  delay(5000);
 }
